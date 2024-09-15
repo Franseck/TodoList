@@ -16,10 +16,10 @@ function TodoList() {
 
   return (
     <div className="min-h-screen flex items-center justify-center  bg-primary">
-      <div className="bg-secondary shadow-lg rounded-3xl p-16">
+      <div className="bg-secondary shadow-lg rounded-3xl p-16 ">
         <h1
-          className=" mb-5 font-title
-   text-center  text-3xl text-textColor"
+          className=" mb-7  font-title
+   text-center  text-2xl text-textColor"
         >
           Todo App
         </h1>
@@ -33,7 +33,7 @@ function TodoList() {
           />
           <button
             onClick={addTodo}
-            className="bg-buttonCol hover:bg-buttonHov active:bg-textColor focus:outline-none focus:ring focus:ring-buttonCol text-orange-400 px-4 py-2 rounded-lg"
+            className="bg-buttonCol hover:bg-buttonHov active:bg-textColor focus:outline-none focus:ring focus:ring-buttonCol text-orange-400 px-4 py-2 rounded-lg font-title"
           >
             Add
           </button>

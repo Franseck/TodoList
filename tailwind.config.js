@@ -13,6 +13,7 @@ module.exports = {
         textColor :"#CD5C08",
         buttonCol: "#405D72",
         backHov: "#C69774",
+        head :"#8D493A",
       },
       fontFamily:{
         title: ["Protest Guerrilla"],
