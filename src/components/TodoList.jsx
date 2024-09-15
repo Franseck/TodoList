@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { MdDelete } from "react-icons/md";
 function TodoList() {
   const [todos, setTodos] = useState([]);
   const [input, setInput] = useState("");
@@ -79,9 +79,10 @@ function TodoList() {
                     )
                   )
                 }
-                className="ml-2 border-none p-2 rounded-lg bg-red-400 text-white hover:bg-red-600"
+                className="ml-2 border-none p-2 rounded-lg bg-red-400 text-white hover:bg-red-600 flex items-center "
               >
                 Delete
+                <MdDelete  />
               </button>
             </li>
           ))}
